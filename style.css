@@ -1,0 +1,37 @@
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter{
+    text-align: center;
+    border:5px solid lightgray;
+    padding:50px;
+}
+#addbtn{
+    background-color: black;
+    color:white;
+    font-size:20px;
+    border:none;
+    outline:none;
+    padding:15px;
+    cursor:pointer;
+}
+#lowerbtn{
+    background-color: black;
+    color:white;
+    font-size:20px;
+    border:none;
+    outline:none;
+    padding:15px;
+    cursor:pointer;
+}
+#addbtn:hover{
+    background-color: white;
+    color:black;
+}
+#lowerbtn:hover{
+    background-color: blue;
+    color:white;
+}
